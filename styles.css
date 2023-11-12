@@ -1,0 +1,180 @@
+*{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+/*-----------------------------------------------------------------------------------------------*/
+/* Body Part */
+body{
+    background-color : #1c1b23;
+    
+    background-size: 100% 100%;
+
+}
+/* Contact details*/
+.contact-details{ 
+    color: black;
+    text-align:center;
+    padding-bottom:5px;
+    font-weight:bold;
+    
+}
+img.profilePhoto{
+    
+    border-radius: 150px;
+    margin: 0 auto;
+    display: block;
+    background: linear-gradient(45deg,blue,yellow);
+    padding: 5px;
+    
+}
+
+.Basic-Info{
+    background-image:url('BGC.jpg');
+    background-size: 100% 100%;
+    margin: 0 auto;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px rgba(0.5,0.5,0.5,0.5);
+    
+}
+.name{
+    background-color: #1c1b23;
+    width : 200px;  
+    margin: 0 auto;
+    border-radius:25px;
+}
+.phone-number{
+    position: relative;
+    bottom : 10px;
+    background-color: pink;
+    width:220px;
+    margin:0 auto;
+    border-radius:25px;
+    
+}
+.email-address{
+    position: relative;
+    bottom : 18px;
+    background-color: pink;
+    width:350px;
+    margin:0 auto;
+    border-radius:25px
+}
+.about-element{
+    background: linear-gradient(45deg,red,#FFFB73);
+    width:150px;
+    margin:0 auto;
+    border-radius:25px
+}
+.about-paragraph{
+    border-radius:10px;
+   
+}
+.skills-element{
+    background: linear-gradient(45deg,red,#FFFB73);
+    width:150px;
+    margin:0 auto;
+    border-radius:25px
+}
+.coding-element{
+    background: linear-gradient(45deg,red,#FFFB73);
+    width:210px;
+    margin:0 auto;
+    border-radius:25px
+}
+.flower-bouquet{
+    
+    margin: 0 auto;
+
+}
+/*-----------------------------------------------------------------------------------------------------*/
+/*Heading elements*/
+h1{
+    color: yellow;
+    text-align: center;
+    
+}
+
+h2{
+    color: black;
+    text-align: center;
+}
+
+
+/*-------------------------------------------------------------------------------------------------------------*/
+/*paragraph elements*/
+p{
+    color: white;
+    font-size: 20px;
+}
+.coding-subtitles{
+    margin-left: 60px;
+}
+.concepts-subtitles{
+    margin-left: 8px;
+}
+
+.others-subtitles{
+    margin-left : 10px;
+}
+.thanks-note{
+    text-align: center;
+    color : green;
+    font-weight: 600;
+}
+.about-element,.imp-line,.imp-para{
+    color : red;
+}
+/*-------------------------------------------------------------------------------------------------------------*/
+/*Image elements*/
+img[alt]{
+    color : blue;
+}
+
+
+img{
+    background-color: white;
+}
+.List{
+    color: #FFFB73;
+    
+} 
+
+img.images{
+    border-radius: 25px;
+    border: green solid 3.5px;
+}
+img.flower-image{
+    border-radius:100px;
+    margin : 0 auto;
+    display: block;
+    padding : 5px 5px;
+    background-color : red;
+    
+}
+/*--------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+.side-by-side-images{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+.side-by-side-images li{
+    margin-right: 100px;
+}
+
+.side-by-side-images{
+  
+    max-width: 100%;
+}
+.center-div{
+    margin: 0 auto
+}
+
+.Skills{
+    padding-top : 20px;
+}
+
+
